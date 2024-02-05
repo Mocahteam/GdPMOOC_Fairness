@@ -1,0 +1,97 @@
+video_events: list[str] = [
+    "seek_video",
+    "edx.video.position.changed",
+    "show_transcript",
+    "edx.video.transcript.shown",
+    "speed_change_video",
+    "stop_video",
+    "edx.video.stopped",
+    "video_hide_cc_menu",
+    "video_show_cc_menu",
+    "hide_transcript",
+    "edx.video.transcript.hidden",
+    "load_video",
+    "edx.video.loaded",
+    "pause_video",
+    "edx.video.paused",
+    "play_video",
+    "edx.video.played",
+]
+
+discussion_events: list[str] = [
+    "edx.forum.comment.created",
+    "edx.forum.response.created",
+    "edx.forum.response.voted",
+    "edx.forum.searched",
+    "edx.forum.thread.created",
+    "edx.forum.thread.voted",
+    "edx.forum.thread.viewed",
+]
+
+problem_events: list[str] = [
+    "edx.problem.hint.demandhint_displayed",
+    "edx.problem.hint.feedback_displayed",
+    "problem_check",
+    "problem_check_fail",
+    "problem_graded",
+    "problem_rescore",
+    "problem_rescore_fail",
+    "problem_reset",
+    "problem_save",
+    "problem_show",
+    "reset_problem",
+    "reset_problem_fail",
+    "save_problem_fail",
+    "save_problem_success",
+    "showanswer",
+]
+
+navigation_events: list[str] = ["page_close", "seq_goto", "seq_next", "seq_prev"]
+
+# may not appear in GDP
+textbook_events: list[str] = [
+    "book",
+    "textbook.pdf.thumbnails.toggled",
+    "textbook.pdf.thumbnail.navigated",
+    "textbook.pdf.outline.toggled",
+    "textbook.pdf.chapter.navigated",
+    "textbook.pdf.page.navigated",
+    "textbook.pdf.zoom.buttons.changed",
+    "textbook.pdf.zoom.menu.changed",
+    "textbook.pdf.display.scaled",
+    "textbook.pdf.page.scrolled",
+    "textbook.pdf.search.executed",
+    "textbook.pdf.search.navigatednext",
+    "textbook.pdf.search.highlight.toggled",
+    "textbook.pdf.searchcasesensitivity.toggled",
+]
+
+# may not appear in GDP
+special_exam_events: list[str] = [
+    "edx.special_exam.proctored.attempt.created",
+    "edx.special_exam.practice.attempt.created",
+    "edx.special_exam.timed.attempt.created",
+    "edx.special_exam.proctored.attempt.declined",
+    "edx.special_exam.proctored.attempt.deleted",
+    "edx.special_exam.practice.attempt.deleted",
+    "edx.special_exam.timed.attempt.deleted",
+    "edx.special_exam.proctored.attempt.download_software_clicked",
+    "edx.special_exam.practice.attempt.download_software_clicked",
+    "edx.special_exam.proctored.attempt.error",
+    "edx.special_exam.practice.attempt.error",
+    "edx.special_exam.proctored.attempt.ready_to_start",
+    "edx.special_exam.practice.attempt.ready_to_start",
+    "edx.special_exam.proctored.attempt.ready_to_submit",
+    "edx.special_exam.practice.attempt.ready_to_submit",
+    "edx.special_exam.timed.attempt.ready_to_submit",
+    "edx.special_exam.proctored.attempt.rejected",
+    "edx.special_exam.proctored.attempt.review_received",
+    "edx.special_exam.proctored.attempt.started",
+    "edx.special_exam.practice.attempt.started",
+    "edx.special_exam.timed.attempt.started",
+    "edx.special_exam.proctored.attempt.submitted",
+    "edx.special_exam.practice.attempt.submitted",
+    "edx.special_exam.timed.attempt.submitted",
+    "edx.special_exam.proctored.attempt.verified",
+    "edx.special_exam.proctored.option-presented",
+]
