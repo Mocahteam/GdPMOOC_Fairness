@@ -15,4 +15,4 @@ Run:
 - python3 train_models.py
 
 If you reuse parts of the code and/or data, please cite the following paper: 
-- Sébastien Lallé, François Bouchet, Mélina Verger and Vanda Luengo. 2024. Fairness of MOOC Completion Predictions Across Demographics and Contextual Variables. Proceedings of the 25th International Conference on Artificial Intelligence in Education, Recife, Brazil: Springer.
+- Sébastien Lallé, François Bouchet, Mélina Verger and Vanda Luengo. 2024. Fairness of MOOC Completion Predictions Across Demographics and Contextual Variables. Proceedings of the 25th International Conference on Artificial Intelligence in Education, pp. 379–393. Recife, Brazil: Springer. DOI:10.1007/978-3-031-64302-6_27
